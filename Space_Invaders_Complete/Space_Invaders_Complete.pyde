@@ -1,9 +1,10 @@
-enemies=[["alive","alive","alive","alive","alive","alive"],["alive","alive","alive","alive","alive","alive"]]
+enemies=[["alive","alive","alive","alive","alive","alive"],["alive","alive","alive","alive","alive","alive"],["alive","alive","alive","alive","alive","alive"],["alive","alive","alive","alive","alive","alive"]]
 bulletexist=False
 bulletY = 600
 XSpeed = 100
-x= 1
+x= 5
 y= 50
+enemySpeed = 1
 xdir = 1
 # x is position of the enemy
 def setup():
@@ -13,7 +14,7 @@ def draw():
     global k
     global d
     global bulletY , bulletexist
-    global x
+    global x   
     global y
     global xdir
     global alive
@@ -51,8 +52,9 @@ def draw():
         x = 700
         y = 700
         textSize(40)
-        text("You suck son",width/2,height/2)
+        text(" Bruh, Turn off the PC, Trash                        ",width/1000,height/4)
         print("You Suck Son")
+        
     
     
     
